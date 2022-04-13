@@ -1,6 +1,6 @@
 package ro.fasttrack.lab8;
 
-public class Homework2Main {
+public class Homework3Main {
     public static void main(String[] args) {
         Homework3 cat1 = new Cat("Milly");
         Cat cat2 = new Cat("Tom");

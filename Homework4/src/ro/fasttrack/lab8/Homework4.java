@@ -15,7 +15,7 @@ public class Homework4 {
         printStudent(student4);
         printStudent(student5);
 
-        System.out.println(student1.toString());
+        System.out.println("The average grade for the " + Student.getNumStudents() + " sudents is " + Student.calculate());
     }
 
     public static void printStudent(Student student) {

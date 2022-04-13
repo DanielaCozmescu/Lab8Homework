@@ -29,7 +29,7 @@ public class Student {
         return numStudents;
     }
 
-    public String toString(){
-        return "The average grade for the " + numStudents + " sudents is " + (sum/numStudents);
+    public static double calculate(){
+        return sum/numStudents;
     }
 }
